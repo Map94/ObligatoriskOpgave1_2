@@ -46,9 +46,8 @@
         // ToString Method
         public override string ToString()
         {
-            return Id + " " + Sport + " " + Year;
+            return $"{Id} {Sport} {Year}";
         }
-
 
 
     }
